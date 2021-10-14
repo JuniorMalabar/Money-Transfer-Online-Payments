@@ -1,3 +1,21 @@
+@font-face {
+	font-family: 'CircularStd Medium'; 
+	src: url(/fonts/CircularStd-Medium.ttf); 
+}
+@font-face {
+	font-family: 'CircularStd Book'; 
+	src: url(/fonts/CircularStd-Book.ttf); 
+}
+@font-face {
+	font-family: 'CircularStd Black'; 
+	src: url(/fonts/CircularStd-Black.ttf); 
+}
+@font-face {
+	font-family: 'CircularStd Bold'; 
+	src: url(/fonts/CircularStd-Bold.ttf); 
+}
+
+
 @media (min-width: 1200px) {
     .navbar-expand-lg .navbar-collapse {
         padding-left: 25% !important;
