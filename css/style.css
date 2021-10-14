@@ -1,0 +1,11 @@
+@media (min-width: 1200px) {
+    .navbar-expand-lg .navbar-collapse {
+        padding-left: 25% !important;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: space-between;
+        padding-left: 20%;
+    }
+}
