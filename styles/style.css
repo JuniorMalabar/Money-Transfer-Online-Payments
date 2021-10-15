@@ -1,0 +1,96 @@
+section {
+    margin: 100px 0;
+}
+.reason-img-1 {
+    width: 170px;
+    height: 200px;
+}
+.reason-img-2 {
+    width: 200px;
+    height: 200px;
+}
+.reason-img-3 {
+    width: 149px;
+    height: 200px;
+}
+.google-play-button {
+    width: fit-content;
+    color: #9166f0;
+    box-shadow: 0px 10px 30px rgba(145, 102, 240, 0.35);
+    padding: 10px;
+    border-radius: 10px;
+}
+.apple-store-button {
+    width: fit-content;
+    background: #9166f0;
+    box-shadow: 0px 10px 30px rgba(145, 102, 240, 0.35);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+}
+.features-items > div {
+    height: 300px;
+    background-clip: content-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.feature-1 {
+    background: rgba(254, 108, 157, 0.1);
+}
+.feature-2 {
+    background: rgba(145, 102, 240, 0.1);
+}
+.feature-3 {
+    background: rgba(255, 154, 62, 0.1);
+}
+.feature-4 {
+    background: rgba(44, 173, 90, 0.1);
+}
+.feature-img {
+    width: 70px;
+    height: 70px;
+}
+.call-to-action {
+    color: white;
+    padding: 130px 0;
+    background-image: url("../images/call_to_action/call_to_action_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.call-to-action-button {
+    background: #ffffff;
+    box-shadow: 0px 10px 25px rgba(99, 45, 219, 0.4);
+    border-radius: 10px;
+    color: #fe6c9d;
+    padding: 12px;
+}
+@media (max-width: 768px) {
+    .download-apps .pic {
+        order: -1;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 992px) {
+    .features-items > div {
+        height: 200px;
+    }
+}
+@media (max-width: 1200px) {
+    .call-to-action-button {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: space-between;
+        padding-left: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-expand-lg .navbar-collapse {
+        padding-left: 25% !important;
+    }
+}
