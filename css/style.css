@@ -16,6 +16,22 @@
 }
 
 
+body{
+    background-image: url("../images/hero_banner/hero-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttons{
+    display: flex;
+}
+.test{
+    display: flex;
+}
+.play{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+}
 @media (min-width: 1200px) {
     .navbar-expand-lg .navbar-collapse {
         padding-left: 25% !important;
